@@ -7,23 +7,23 @@ The goal for this analysis is to be able to predict the salary for a job positio
 ## Dataset
 The data includes 1,000,000 observations and the following variables:
 <br>
-jobId: Unique identifier for each employee 
+*jobId:* Unique identifier for each employee 
 <br>
-salary: fixed payment per year 
+*salary:* fixed payment per year 
 <br>
-companyId: Identifier for each company 
+*companyId:* Identifier for each company 
 <br>
-jobType: Position held within the company (CEO, CFO, CTO, Vice President, Manager, Janitor, Senior, or Junior) 
+*jobType:* Position held within the company (CEO, CFO, CTO, Vice President, Manager, Janitor, Senior, or Junior) 
 <br>
-degree: educational degree (Doctoral, Masters, Bachelors, High School, or None) 
+*degree:* educational degree (Doctoral, Masters, Bachelors, High School, or None) 
 <br>
-major: concentration of study 
+*major:* concentration of study 
 <br>
-industry: general field of work 
+*industry:* general field of work 
 <br>
-yearsExperience: how many years of work experience 
+*yearsExperience:* how many years of work experience 
 <br>
-milesFromMetropolis: how many miles away the job is from a major city
+*milesFromMetropolis:* how many miles away the job is from a major city
 ## Methodology
 1. Data Understanding and Data Cleaning:
 2. Exploratory Analysis:
