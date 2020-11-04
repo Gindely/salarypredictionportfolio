@@ -6,6 +6,7 @@ A relatively new company would like to predict employees' annual salary based on
 The goal for this analysis is to be able to predict the salary for a job position based on certain attributes.
 ## Dataset
 The data includes 1,000,000 observations and the following variables:
+<br>
 jobId: Unique identifier for each employee 
 salary: fixed payment per year 
 companyId: Identifier for each company 
