@@ -25,10 +25,9 @@ The data includes 1,000,000 observations and the following variables:
 <br>
 *milesFromMetropolis:* how many miles away the job is from a major city
 ## Methodology
-1. Data Understanding and Data Cleaning: Lengths and types of the variables were determined and data was checked for missing values and duplicates.
-2. Exploratory Analysis: Created visualizations to explore the target variable and examine the potential existance of outliers or corrupt data. Further visualized the relationship between the target and the feature variables and relationships between features.
-3. Feature Selection and Feature Engineering: Removed features that could potentially create noise and accessed the validity of removal through backward elimination and feature importance. Used One-hot encoding to encode the categorical data in order to be used in the model.
-4. Model Building and Evaluation ((1) explain first
-model iteration, and (2) choice of criteria for best model)
-5. Scoring the Dataset
+1. *Data Understanding and Data Cleaning:* Lengths and types of the variables were determined and data was checked for missing values and duplicates.
+2. *Exploratory Analysis:* Created visualizations to explore the target variable and examine the potential existance of outliers or corrupt data. Further visualized the relationship between the target and the feature variables and relationships between features.
+3. *Feature Selection and Feature Engineering:* Removed features that could potentially create noise and accessed the validity of removal through backward elimination and feature importance. Used One-hot encoding to encode the categorical data in order to be used in the model.
+4. *Model Building and Evaluation:* (Established a Baseline Model and evaluated based on MSE and R-sqaured. Developed 3 other models in order to improve upon baseline model)
+5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction.
 ## Summary
