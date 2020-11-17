@@ -36,23 +36,14 @@ The data includes 1,000,000 observations and the following variables:
 ![Dataview](./img/dataview.png)
 ## Methodology
 1. *Data Understanding and Data Cleaning:* Lengths and types of the variables were determined and data was checked for missing values and duplicates.
-<br>
 ![Datacleaning](./img/datacleaning.png)
-<br>
 2. *Exploratory Analysis:* Created visualizations to explore the target variable and examine the potential existance of outliers or corrupt data. Further visualized the relationship between the target and the feature variables and relationships between features.
-<br>
 ![Targetviz](./img/targetviz.png) ![Heatmap](./img/heatmap.png)
-<br>
 3. *Feature Selection and Feature Engineering:* Removed features that could potentially create noise and accessed the validity of removal through backward elimination and feature importance. Used One-hot encoding to encode the categorical data in order to be used in the model.
-<br>
 ![Modelselection](./img/modelselection.png)
-<br>
 4. *Model Building and Evaluation:* Established a Baseline Model and evaluated based on MSE and R-sqaured. Developed 3 other models in order to improve upon baseline model.
-<br>
 ![Baselinescatter](./img/baselinescatter.png) ![Distributionbaseline](./img/distributionbaseline.png)
-<br>
 5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction.
-<br>
 ## Models Used
 Linear Regression
 <br>
