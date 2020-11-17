@@ -1,13 +1,16 @@
 # Salary Prediction Portfolio
 Salary Prediction Project
+## Table of contents
+* [Introduction](#introduction)
+* [Technologies](#technologies)
+* [Goal](#goal)
+* [Dataset](#dataset)
+* [Methodology](#methodology)
+* [Models Used](#models-used)
 ## Introduction
 A relatively new company would like to predict employees' annual salary based on specific attributes in order to make competitive job offers to new hires. 
 ## Technologies
 Python
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
 ## Goal
 The goal for this analysis is to be able to predict the salary for a job position based on certain attributes.
 ## Dataset
