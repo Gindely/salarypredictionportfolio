@@ -35,7 +35,7 @@ The data includes 1,000,000 observations and the following variables:
 *milesFromMetropolis:* how many miles away the job is from a major city
 ![Dataview](./img/dataview.png)
 ## Methodology
-1. *Data Understanding and Data Cleaning:* Lengths and types of the variables were determined and data was checked for missing values and duplicates.
+1. *Data Understanding and Data Cleaning:* Lengths and types of the variables were determined and data was checked for missing values and duplicates.<br />
 ![Datacleaning](./img/datacleaning.png)
 2. *Exploratory Analysis:* Created visualizations to explore the target variable and examine the potential existance of outliers or corrupt data. Further visualized the relationship between the target and the feature variables and relationships between features.
 ![Targetviz](./img/targetviz.png) ![Heatmap](./img/heatmap.png)
