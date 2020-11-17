@@ -41,7 +41,7 @@ The data includes 1,000,000 observations and the following variables:
 ![Targetviz](./img/targetviz.png) ![Heatmap](./img/heatmap.png)
 3. *Feature Selection and Feature Engineering:* Removed features that could potentially create noise and accessed the validity of removal through backward elimination and feature importance. Used One-hot encoding to encode the categorical data in order to be used in the model.
 ![Modelselection](./img/modelselection.png)
-4. *Model Building and Evaluation:* Established a Baseline Model and evaluated based on MSE and R-sqaured. Developed 3 other models in order to improve upon baseline model.
+4. *Model Building and Evaluation:* Established a Baseline Model and evaluated based on MSE and R-sqaured. Developed 3 other models in order to improve upon baseline model.<br />
 ![Baselinescatter](./img/baselinescatter.png) ![Distributionbaseline](./img/distributionbaseline.png)
 5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction.
 ## Models Used
