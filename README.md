@@ -7,6 +7,7 @@ Salary Prediction Project
 * [Dataset](#dataset)
 * [Methodology](#methodology)
 * [Models Used](#models-used)
+* [Model Results and Selection](#model-results-and-selection)
 ## Introduction
 A relatively new company would like to predict employees' annual salary based on specific attributes in order to make competitive job offers to new hires. 
 ## Technologies
@@ -45,10 +46,11 @@ The data includes 1,000,000 observations and the following variables:
 ![Baselinescatter](./img/baselinescatter.png) ![Distributionbaseline](./img/distributionbaseline.png)
 5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction.
 ## Models Used
-Linear Regression
+Linear Regression: Baseline
 <br>
 Polynomial Transformation
 <br>
 Ridge Regression
 <br>
 Random Forest
+## Model Results and Selection
