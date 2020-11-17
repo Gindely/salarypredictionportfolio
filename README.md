@@ -54,3 +54,7 @@ Ridge Regression
 <br>
 Random Forest
 ## Model Results and Selection
+**Linear regression with 2nd order polynomial transformation gave the best prediction of salary with MSE of 357 and R-squared of 76%.**
+*Ridge Regression also showed MSE of 357, but a R-squared of slightly lower at 73%.
+Random Forest resulted in the worse MSE of 372 and R-squared of 75%.*<br />
+![Ploynomialdistplot](./img/polydistplot.png)
