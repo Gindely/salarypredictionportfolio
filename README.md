@@ -36,7 +36,7 @@ The data includes 1,000,000 observations and the following variables:
 ![Dataview](./img/dataview.png)
 ## Methodology
 1. *Data Understanding and Data Cleaning:* Lengths and types of the variables were determined and data was checked for missing values and duplicates.
-![Datacleaning](./img/data cleaning.png)
+![Datacleaning](./img/data-cleaning.png)
 2. *Exploratory Analysis:* Created visualizations to explore the target variable and examine the potential existance of outliers or corrupt data. Further visualized the relationship between the target and the feature variables and relationships between features.
 ![Targetviz](./img/target viz.png) ![Heatmap](./img/heatmap.png)
 3. *Feature Selection and Feature Engineering:* Removed features that could potentially create noise and accessed the validity of removal through backward elimination and feature importance. Used One-hot encoding to encode the categorical data in order to be used in the model.
