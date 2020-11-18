@@ -49,11 +49,11 @@ The average salary is approximately $110,000 and salary is normally distributed.
 ## Models Used
 Linear Regression: Baseline
 <br>
-Polynomial Transformation
+Polynomial Transformation: When I plotted the model previously, the data showed some curvature. If we applyed polynomial transformation to the features, a quadratic curve will potentionally fit the data better than a linear one.
 <br>
-Ridge Regression
+Ridge Regression: Since the data potentially displays multicollinearity or highly corrleated features, specifically between major and degree, I decided to try this model.
 <br>
-Random Forest
+Random Forest: Since the data consists of largely categorical features, I choose this model to see if it would perform better.
 ## Model Results and Selection
 **Linear regression with 2nd order polynomial transformation gave the best prediction of salary with MSE of 357 and R-squared of 76%.**
 *Ridge Regression also showed MSE of 357, but a R-squared of slightly lower at 73%.
