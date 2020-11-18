@@ -59,3 +59,4 @@ Random Forest: Since the data consists of largely categorical features, I choose
 *Ridge Regression also showed MSE of 357, but a R-squared of slightly lower at 73%.
 Random Forest resulted in the worse MSE of 372 and R-squared of 75%.*<br />
 ![Ploynomialdistplot](./img/polydistplot.png)
+The distribution plot for the choosen model shows that the predicted values are very close to the actual values with a bit of an overestimation in salaries from $105,000 to $150,000.
