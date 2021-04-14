@@ -42,10 +42,9 @@ The data includes 1,000,000 observations and the following variables:
 ![Targetviz](./img/targetviz.png) ![Heatmap](./img/heatmap.png) <br />
 The average salary is approximately $110,000 and salary is normally distributed. The heatmap shows that degree and major are highly correlated.
 3. *Feature Selection and Feature Engineering:* Removed features that could potentially create noise and accessed the validity of removal through backward elimination. Used ordinal encoding on degree and job type and one-hot encoding on major and industry in order to be used in the model. Since regression will be used, I applied standardization to ensure that one feature doesn't influence the model more than the others. I used VIF to ensure multicollinearity doesn't exists amongst the features. <br />
-
-![Backwardelim](./img/backwardelim.PNG) ![Vif](./img/vif.PNG)
+![Backwardelim](./img/backwardelim.PNG) ![Vif](./img/vif.PNG) <br />
 4. *Model Building and Evaluation:* Established a Baseline Model, using Linear Regression, and evaluated based on MSE and R-squared. Developed 3 other models in order to improve upon baseline model. <br />
-![Baselinescatter](./img/baselinescatter.png) ![Baselinedist](./img/baselinedist.PNG)
+![Baselinescatter](./img/baselinescatter.png) ![Baselinedist](./img/baselinedist.PNG) <br />
 5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction. The baseline model results were an R-sqaured of 74% and a MSE of 395.
 ## Models Used
 *Linear Regression:* Baseline
@@ -78,7 +77,7 @@ The best hyperparameters selected by the model were: learning_rate=0.1, max_dept
 **Results: MSE: 358, R-squared: 76%**
 <br />
 
-###***Final Model Selected: Gradient Boosting***
+### *Final Model Selected: Gradient Boosting*
 
 The distribution plot for the choosen model shows that the predicted values are very close to the actual values with a bit of an overestimation in salaries from $105,000 to $160,000.<br />
 <br>
