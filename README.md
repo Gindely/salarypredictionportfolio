@@ -47,13 +47,13 @@ The average salary is approximately $110,000 and salary is normally distributed.
 ![Baselinescatter](./img/baselinescatter.png) ![Baselinedist](./img/baselinedist.PNG)
 5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction. The baseline model results were an R-sqaured of 74% and a MSE of 395.
 ## Models Used
-Linear Regression: Baseline
+*Linear Regression:* Baseline
 <br>
 Linear Regression with Polynomial Transformation: When I plotted the model previously, the data showed some curvature. If we applyed polynomial transformation to the features, a quadratic curve will potentionally fit the data better than a linear one.
 <br>
-Random Forest: Since the data consists of largely categorical features, I choose this model to see if it would perform better.
+*Random Forest:* Since the data consists of largely categorical features, I choose this model to see if it would perform better.
 <br>
-Gradient Boosting: For the same reason as Random Forest and this model will help minimize errors.
+*Gradient Boosting:* For the same reason as Random Forest and this model will help minimize errors.
 ## Model Results and Selection
 ### Model 1: Linear Regression - Polynomial Transformation
 ![Polydist](./img/polydist.PNG)
@@ -76,6 +76,7 @@ The best hyperparameters selected by the model were: learning_rate=0.1, max_dept
 <br>
 **Results: MSE: 358, R-squared: 76%**
 <br />
+
 ***Final Model Selected: Gradient Boosting***
 
 The distribution plot for the choosen model shows that the predicted values are very close to the actual values with a bit of an overestimation in salaries from $105,000 to $160,000.<br />
