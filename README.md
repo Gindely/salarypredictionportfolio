@@ -66,15 +66,17 @@ The best hyperparameters selected by the model were: linearregression__fit_inter
 ![Randomforestdist](./img/randomforestdist.PNG)
 <br>
 The best hyperparameters selected by the model were: max_depth=15, min_samples_leaf=20, min_samples_split=10, n_estimators=186
+<br>
 **Results: MSE: 371, R-squared: 75%**
 <br>
 ### Model 3: Gradient Boosting
 ![Gradientboostingdist](./img/gradientboostingdist.PNG)
 <br>
 The best hyperparameters selected by the model were: learning_rate=0.1, max_depth=5, max_features=1.0, min_samples_leaf=3, n_estimators=300
-**Results: MSE: 358, R-squared: 76%**
 <br>
-**Final Model Selected: Gradient Boosting**
+**Results: MSE: 358, R-squared: 76%**
+<br />
+***Final Model Selected: Gradient Boosting***
 
 The distribution plot for the choosen model shows that the predicted values are very close to the actual values with a bit of an overestimation in salaries from $105,000 to $160,000.<br />
 <br>
