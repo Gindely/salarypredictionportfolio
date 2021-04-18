@@ -19,39 +19,39 @@ The data includes 1,000,000 observations and the following variables:
 <br>
 *jobId:* Unique identifier for each employee 
 <br>
-*salary:* fixed payment per year 
+*salary:* Fixed payment per year 
 <br>
 *companyId:* Identifier for each company 
 <br>
 *jobType:* Position held within the company (CEO, CFO, CTO, Vice President, Manager, Janitor, Senior, or Junior) 
 <br>
-*degree:* educational degree (Doctoral, Masters, Bachelors, High School, or None) 
+*degree:* Educational degree (Doctoral, Masters, Bachelors, High School, or None) 
 <br>
-*major:* concentration of study 
+*major:* Concentration of study 
 <br>
-*industry:* general field of work 
+*industry:* General field of work 
 <br>
-*yearsExperience:* how many years of work experience 
+*yearsExperience:* How many years of work experience 
 <br>
-*milesFromMetropolis:* how many miles away the job is from a major city
+*milesFromMetropolis:* How many miles away the job is from a major city
 ![Dataview](./img/dataview.png)
 ## Methodology
 1. *Data Understanding and Data Cleaning:* Lengths and types of the variables were determined and data was checked for missing values and duplicates. Since the dataset contains 1 million records and only five missing values were found, removal was deemed appropriate. <br />
 ![Datacleaning](./img/datacleaning.png)
-2. *Exploratory Analysis:* Created visualizations to explore the target variable and examine the potential existance of outliers or corrupt data. Further visualized the relationship between the target and the feature variables and relationships between features.
+2. *Exploratory Analysis:* Created visualizations to explore the target variable and to examine the potential existance of outliers or corrupt data. Further visualized the relationship between the target and the feature variables and relationships between features.
 ![Targetviz](./img/targetviz.png) ![Heatmap](./img/heatmap.png) <br />
 The average salary is approximately $110,000 and salary is normally distributed. The heatmap shows that degree and major are highly correlated.
 3. *Feature Selection and Feature Engineering:* Removed features that could potentially create noise and accessed the validity of removal through backward elimination. Used ordinal encoding on degree and job type and one-hot encoding on major and industry in order to be used in the model. Since regression will be used, I applied standardization to ensure that one feature doesn't influence the model more than the others. I used VIF to ensure multicollinearity doesn't exists amongst the features. <br />
 ![Backwardelim](./img/backwardelim.PNG) ![Vif](./img/vif.PNG) <br />
 4. *Model Building and Evaluation:* Established a Baseline Model, using Linear Regression, and evaluated based on MSE and R-squared. Developed 3 other models in order to improve upon baseline model. <br />
 ![Baselinescatter](./img/baselinescatter.png) ![Baselinedist](./img/baselinedist.PNG) <br />
-5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction. The baseline model results were an R-sqaured of 74% and a MSE of 395.
+5. *Scoring the Dataset:* Model with lowest MSE and highest R-squared was selected for salary prediction. The baseline model results were an R-squared of 74% and a MSE of 395.
 ## Models Used
 *Linear Regression:* Baseline
 <br>
-*Linear Regression with Polynomial Transformation:* When I plotted the model previously, the data showed some curvature. If we applyed polynomial transformation to the features, a quadratic curve will potentionally fit the data better than a linear one.
+*Linear Regression with Polynomial Transformation:* When I plotted the model previously, the data showed some curvature. If we applied polynomial transformation to the features, a quadratic curve will potentionally fit the data better than a linear one.
 <br>
-*Random Forest:* Since the data consists of largely categorical features, I choose this model to see if it would perform better.
+*Random Forest:* Since the data consists of largely categorical features, I chose this model to see if it would perform better.
 <br>
 *Gradient Boosting:* For the same reason as Random Forest and this model will help minimize errors.
 ## Model Results and Selection
@@ -79,7 +79,7 @@ The best hyperparameters selected by the model were: learning_rate=0.1, max_dept
 
 ### *Final Model Selected: Gradient Boosting*
 
-The distribution plot for the choosen model shows that the predicted values are very close to the actual values with a bit of an overestimation in salaries from $105,000 to $160,000.<br />
+The distribution plot for the chosen model shows that the predicted values are very close to the actual values with a bit of an overestimation in salaries from $105,000 to $160,000.<br />
 <br>
-The plot below demostrates the level of importance of each feature on salary. The feature with the highest influence on Salary is job type.
+The plot below demostrates the level of importance of each feature on salary. The feature with the highest influence on salary is job type.
 ![Featureimp](./img/featureimp.PNG)<br />
